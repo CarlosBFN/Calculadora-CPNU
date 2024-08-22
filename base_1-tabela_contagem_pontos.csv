@@ -1,0 +1,12 @@
+﻿titulacao;prova;referencia;calculo;nota_maxima;peso;nota_maxima_ponderada;nota_corte_ponderada
+10%;P1;0,1-P1;100* Nº acertos / 20;100;0,2;20;8
+10%;P2;0,1-P2;((Nº acertos eixo temático 1)* peso eixo temático 1) + ((Nº acertos eixo temático 2)* peso eixo temático 2) + ((Nº acertos eixo temático 3)* peso eixo temático 3) + ((Nº acertos eixo temático 4)* peso eixo temático 4) + ((Nº acertos eixo temático 5)* peso eixo temático 5);100;0,5;50;20
+10%;P3;0,1-P3;Nota;100;0,2;20;
+10%;P4;0,1-P4;10* (Total de pontos);100;0,1;10;
+5%;P1;0,05-P1;100* Nº acertos / 20;100;0,25;25;10
+5%;P2;0,05-P2;((Nº acertos eixo temático 1)* peso eixo temático 1) + ((Nº acertos eixo temático 2)* peso eixo temático 2) + ((Nº acertos eixo temático 3)* peso eixo temático 3) + ((Nº acertos eixo temático 4)* peso eixo temático 4) + ((Nº acertos eixo temático 5)* peso eixo temático 5);100;0,5;50;20
+5%;P3;0,05-P3;Nota;100;0,2;20;
+5%;P4;0,05-P4;10* (Total de pontos);100;0,05;5;
+0%;P1;0-P1;100* Nº acertos / 20;100;0,25;25;10
+0%;P2;0-P2;((Nº acertos eixo temático 1)* peso eixo temático 1) + ((Nº acertos eixo temático 2)* peso eixo temático 2) + ((Nº acertos eixo temático 3)* peso eixo temático 3) + ((Nº acertos eixo temático 4)* peso eixo temático 4) + ((Nº acertos eixo temático 5)* peso eixo temático 5);100;0,55;55;22
+0%;P3;0-P3;Nota;100;0,2;20;
