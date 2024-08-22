@@ -21,18 +21,16 @@ ___
 1. README.md      - Arquivo de texto que documenta o projeto
 <br>
 
-2. [Calculadora versão Google Sheets](calculadora_cnu_[versao_excel].xlsx)       - Versão original do projeto feita inteiramente no Google Sheets e baixada em modo de compatibilidade para o Excel (.xlsx) (Pode ainda apresentar problemas no Excel.
-3. [Calculadora versão SQL](calculadora_cpnu_[versao_sql].sql)      - Versão do projeto feita inteiramente em SQL 
+2. [Calculadora versão Google Sheets](calculadora_cnu_[versao_excel].xlsx) - Versão original do projeto feita inteiramente no Google Sheets e baixada em modo de compatibilidade para o Excel (.xlsx) (Pode ainda apresentar problemas no Excel.
+3. [Calculadora versão SQL](calculadora_cpnu_[versao_sql].sql) - Versão do projeto feita inteiramente em SQL 
 <br>
 
-2. [Banco](base_cpnu.db)        - BD do projeto
-3. [Base 1](base_1-tabela_contagem_pontos.csv)      - Arquivo para preenchimento da tabela da base de contagem de pontos
-4. [Base 2](base_2-cargo_x_titulacao.csv)       - Arquivo para preenchimento da tabela da base de cargos
-5. [Base 3](base_3-pesos_eixos.csv)     - Arquivo para preenchimento da tabela da base de pesos
-<br>
-
-6. [Query para preenchimento do BD](preenche_base.sql)                             - Arquivo para criação da base_2_empresa
-7. [Query para enserir as notas e inscrições dos candidatos](insere_dados_candidato.sql)                     - Query para preenchimento da base_2_empresa
+2. [Banco](base_cpnu.db) - BD do projeto
+3. [Base 1](base_1-tabela_contagem_pontos.csv) - Arquivo para preenchimento da tabela da base de contagem de pontos
+4. [Base 2](base_2-cargo_x_titulacao.csv) - Arquivo para preenchimento da tabela da base de cargos
+5. [Base 3](base_3-pesos_eixos.csv) - Arquivo para preenchimento da tabela da base de pesos
+6. [Query para preenchimento do BD](preenche_base.sql) - Query para preenchimento das bases (alternativa aos .csv)
+7. [Query para enserir as notas e inscrições dos candidatos](insere_dados_candidato.sql) - Query para criação e preenchimento das tabelas com os dados dos candidatos
 <br>
 
 ___
