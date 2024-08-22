@@ -16,6 +16,7 @@ calcula_pesos AS(
         n.candidato
         ,n.cargo
         ,t.titulacao
+        ,t.nome
         ,CASE
             WHEN t.titulacao = "0%" THEN "0"
             WHEN t.titulacao = "5%" THEN "0,05"
@@ -46,9 +47,10 @@ calcula_pesos AS(
 
 calcula_ponderada AS(
     SELECT DISTINCT
-        p.candidato
-        ,p.cargo
-        ,p.titulacao
+        p.candidato    
+        ,p.cargo        
+        ,p.titulacao    
+        ,p.nome        
         ,p.referencia
         ,CASE
             WHEN SUBSTR(p.prova, 0, 3) = "p2" THEN "p2"
@@ -70,7 +72,7 @@ calcula_ponderada AS(
                 ON p.referencia = cp.referencia
     ) p
 
-    GROUP BY 1,2,3,4,5
+    GROUP BY 1,2,3,4,5,6
 ),
 
 verifica_corte AS(
@@ -87,10 +89,14 @@ verifica_corte AS(
             ON p.referencia = cp.referencia
 )
 
-SELECT * 
+SELECT
+    candidato           AS Candidato
+    ,cargo              AS Código_do_cargo
+    ,nome               AS Nome_do_Cargo
+    ,titulacao          AS Peso_dos_títulos
+    ,UPPER(prova)       AS prova
+    ,nota               AS Nota_por_prova
+    ,corte              AS Corte
+    ,nota_total         AS Nota_final
 
 FROM verifica_corte 
-
-WHERE 1=1
-    AND candidato = "Carlos"
-    AND cargo = "B2-03-A"
