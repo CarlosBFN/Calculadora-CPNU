@@ -99,4 +99,4 @@ SELECT
     ,corte              AS Corte
     ,nota_total         AS Nota_final
 
-FROM verifica_corte 
+FROM verifica_corte
